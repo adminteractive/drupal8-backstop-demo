@@ -237,3 +237,8 @@ ul ol {
 p {
   margin-bottom: 1.28rem;
 }
+
+.page-node-10 h1.page-title,
+.page-node-10 .field__label {
+  color: #ff2954;
+}

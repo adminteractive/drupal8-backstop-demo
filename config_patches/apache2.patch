@@ -1,0 +1,11 @@
+--- apache2.conf	2018-10-19 11:54:24.393470458 +0000
++++ apache_2.conf	2018-10-19 11:54:18.313353053 +0000
+@@ -169,7 +169,7 @@
+ 
+ <Directory /var/www/>
+ 	Options Indexes FollowSymLinks
+-	AllowOverride All
++	AllowOverride None
+ 	Require all granted
+ </Directory>
+ 

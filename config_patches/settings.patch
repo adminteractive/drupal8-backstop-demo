@@ -1,0 +1,15 @@
+--- settings_2.php	2018-10-19 11:40:50.711287099 +0000
++++ settings.php	2018-10-19 11:47:14.560527858 +0000
+@@ -769,9 +769,9 @@
+ #   include $app_root . '/' . $site_path . '/settings.local.php';
+ # }
+ $databases['default']['default'] = array (
+-  'database' => 'container',
+-  'username' => 'container',
+-  'password' => 'container',
++  'database' => 'drupal',
++  'username' => 'drupal',
++  'password' => 'password',
+   'prefix' => '',
+   'host' => 'localhost',
+   'port' => '3306',
